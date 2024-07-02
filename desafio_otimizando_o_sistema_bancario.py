@@ -4,7 +4,7 @@ def depositar(saldo, valor, extrato, /):
     if valor > 0:
         saldo += valor
         extrato += f"Depósito:\tR${valor:.2f}\n"
-        print("\nDepósito relizado com sucesso!")
+        print("\nDepósito realizado com sucesso!")
 
     else:
         print("\nOperação não realizada! O valor do depósito é inválido.")
